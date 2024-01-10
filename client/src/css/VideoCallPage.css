@@ -1,0 +1,54 @@
+/* VideoCallPage.css */
+.container {
+	/* width: 100px; */
+	min-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #f8f9fa;
+}
+
+h2 {
+	color: #343a40;
+	margin-bottom: 20px;
+}
+
+.video-container {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+
+.video-container video {
+	width: 50%; /* Adjust as needed */
+	object-fit: cover;
+	border: 1px solid #ddd;
+	border-radius: 8px;
+	background-color: aqua;
+}
+
+.controls {
+	display: flex;
+	justify-content: space-between;
+}
+
+button {
+	padding: 12px;
+	font-size: 14px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+	background-color: #007bff;
+}
+
+#hangupBtn {
+	background-color: #dc3545;
+	color: #fff;
+}
+
+#hangupBtn:hover {
+	background-color: #c82333;
+}
